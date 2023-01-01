@@ -1,36 +1,32 @@
-package com.example.krupali
+package com.example.implicit
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 
-class MainActivity : AppCompatActivity()
-{
-    //declaration
-    lateinit var txt1 : TextView
-    lateinit var txt2 : TextView
-    lateinit var txt3 : TextView
-    lateinit var bt1 : Button
-    lateinit var i1 : ImageView
+class MainActivity : AppCompatActivity() {
+
+    lateinit var t3 : TextView
+    lateinit var b4 : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        //initilization
-        txt1 = findViewById(R.id.t1)
-        txt2 = findViewById(R.id.t2)
-        txt3 = findViewById(R.id.t3)
-        bt1 =  findViewById(R.id.b1)
-        i1 = findViewById(R.id.img)
-
-        bt1.setOnClickListener {
-            Toast.makeText(applicationContext,"welcome to android",Toast.LENGTH_LONG).show()
-            var i = Intent(applicationContext,MainActivity2::class.java)
+        t3 = findViewById(R.id.t1)
+        b4 = findViewById(R.id.b1)
+        b4.setOnClickListener {
+            val url = "https://web.whatsapp.com/"
+            var i = Intent(Intent.ACTION_VIEW)
+            i.data = Uri.parse(url)
             startActivity(i)
+
         }
     }
 }
+
+
+
+
+
