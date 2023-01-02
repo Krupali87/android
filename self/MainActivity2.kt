@@ -1,4 +1,4 @@
-package com.example.explicit
+package com.example.implicit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
