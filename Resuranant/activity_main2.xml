@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Dream land"
+        android:gravity="center"
+        android:textColor="#DC1212"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/dreamland"
+        android:layout_below="@id/t1"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call this Restaurant"
+        android:layout_below="@id/img1"
+        android:gravity="center"
+        android:textColor="#1BB121"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gulmohar"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:textColor="#A112BA"
+        android:textStyle="italic"
+        android:layout_below="@id/t2"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/gulmohar"
+        android:layout_below="@id/t3"/>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call this Restaurant"
+        android:layout_below="@id/img2"
+        android:gravity="center"
+        android:textColor="#1BB121"/>
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Walk N Eat"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:textColor="#A112BA"
+        android:textStyle="italic"
+        android:layout_below="@id/t4"/>
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/walk"
+        android:layout_below="@id/t5"/>
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call this Restaurant"
+        android:layout_below="@id/img3"
+        android:gravity="center"
+        android:textColor="#1BB121"/>
+
+
+
+</RelativeLayout>
+</ScrollView>
