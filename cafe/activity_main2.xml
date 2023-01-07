@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cozy Cafe"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textColor="#4B12AF"/>
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chocolate shake @ Rs. 119"
+        android:layout_below="@id/txt1"/>
+
+    <CheckBox
+        android:id="@+id/c2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waqffle @ Rs. 159"
+        android:layout_below="@id/c1"/>
+
+    <CheckBox
+        android:id="@+id/c3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mocktails @ Rs. 70"
+        android:layout_below="@+id/c2"/>
+
+    <CheckBox
+        android:id="@+id/c4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brownie @ Rs. 110"
+        android:layout_below="@id/c3"/>
+
+    <CheckBox
+        android:id="@+id/c5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sandwich @ Rs. 40"
+        android:layout_below="@id/c4"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:layout_below="@id/c5"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/call"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="call for cafe"
+        android:layout_below="@id/img1"
+        android:layout_marginLeft="300dp"/>
+
+
+
+
+
+
+</RelativeLayout>
