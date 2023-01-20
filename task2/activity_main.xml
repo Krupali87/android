@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:text="RED"
+        android:backgroundTint="#E2CF0C0C"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:minHeight="100dp"
+        android:minWidth="150dp"
+        android:text="ORANGE"
+        android:backgroundTint="#74FF9800"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600dp"
+        android:minWidth="150dp"
+        android:minHeight="100dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="YELLOW"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:minWidth="150dp"
+        android:minHeight="100dp"
+        android:backgroundTint="#4CAF50"
+        android:text="GREEN"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/btn1"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="40dp"
+        android:minWidth="150dp"
+        android:minHeight="100dp"
+        android:backgroundTint="#3F51B5"
+        android:text="BLUE"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btn1"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="470dp"
+        android:layout_marginTop="40dp"
+        android:minWidth="150dp"
+        android:minHeight="100dp"
+        android:backgroundTint="#673AB7"
+        android:text="INDIGO"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btn1"/>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="70dp"
+        android:minWidth="150dp"
+        android:minHeight="100dp"
+        android:backgroundTint="#A49C27B0"
+        android:text="VIOLET"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/btn4"/>
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>
