@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">array</string>
+
+    <string-array name="DaysOfWeek">
+        <item name="Sunday">Sunday</item>
+        <item name="Monday">Monday</item>
+        <item name="Tuesdayy">Tuesdayy</item>
+        <item name="Wednesday">Wednesday</item>
+        <item name="Thursday">Thursday</item>
+        <item name="Friday">Friday</item>
+        <item name="Saturday">Saturday</item>
+    </string-array>
+
+
+</resources>
