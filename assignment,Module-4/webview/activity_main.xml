@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <WebView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/web"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@id/web"
+        android:enabled="false"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/white"
+        android:text="Back"/>
+
+    <Button
+        android:id="@+id/forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/back"
+        android:layout_toRightOf="@+id/back"
+        android:layout_marginLeft="20dp"
+        android:text="Forward"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/white"
+        android:enabled="false"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/chkinternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/forward"
+        android:layout_toRightOf="@+id/forward"
+        android:layout_marginLeft="20dp"
+        android:text="Internet"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/white"
+        tools:ignore="UnknownId" />
+
+
+
+</RelativeLayout>
