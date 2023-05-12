@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarThumbVertical="@color/white">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Activity.signupActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hey_there"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/e1fname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edtshape"
+            android:hint="@string/first_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:paddingStart="9dp"
+            android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/e2lname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edtshape"
+        android:hint="@string/last_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:paddingStart="9dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/e3email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edtshape"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:hint="@string/email"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/e4phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edtshape"
+        android:layout_marginTop="25dp"
+        android:drawableStart="@drawable/baseline_phone_24"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/phone"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/e5pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edtshape"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:padding="14dp"
+        android:hint="@string/password"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
+        android:enabled="true"
+        android:focusable="true"
+        android:autofillHints="password"
+        android:inputType="numberPassword"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edtshape"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:padding="15dp"
+            android:textSize="17dp"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:drawablePadding="10dp"/>
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/male"
+            android:textColor="#404040"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/female"
+            android:textColor="#404040"
+            android:textSize="16sp" />
+
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/by_continuing_you_accept_our_privacy_policy_and_terms_of_use"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:buttonTint="@color/white"
+        android:textSize="12dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsign"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@drawable/btn_shape"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#DA28A89F"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or_register_with"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/facebook"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape2"
+            android:drawableStart="@drawable/icons8_facebook"
+            android:text="@string/facebook"
+            android:layout_marginLeft="20dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/google"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape2"
+            android:drawableStart="@drawable/icons8_google"
+            android:text="@string/google"
+            android:layout_marginLeft="25dp"
+            android:paddingStart="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
+
+
+
+
+        
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
