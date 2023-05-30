@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtupdatenote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter note detail"
+        android:layout_above="@id/ll1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_alignParentTop="true"
+        android:background="@color/back_color"
+        android:gravity="start|top"
+        android:inputType="textImeMultiLine"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updatefloating"
+        android:layout_alignParentEnd="true"
+        app:tint="@color/white"
+        android:src="@drawable/baseline_save_24"
+        app:backgroundTint="@color/fab_color"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/updatell2"
+        android:layout_margin="3dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/updatell2"
+        android:id="@+id/ll1"
+        android:layout_toStartOf="@id/updatefloating"
+        android:background="@color/purple_200"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@id/updatefloating">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnupdatereducesize"
+            android:text="-"
+            tools:ignore="Suspicious0dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/updatetxtsize"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="12"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnupdateincresesize"
+            android:layout_weight="1"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            tools:ignore="Suspicious0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/updatell2"
+        android:layout_alignParentBottom="true"
+        android:background="@color/back_color"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnupdatebold"
+            android:text="B"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnupdateunderline"
+            android:text="u"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textStyle=""
+            android:textSize="18sp"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnupdateitalic"
+            android:text="I"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:ignore="Suspicious0dp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
