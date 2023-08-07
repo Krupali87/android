@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">onlineshopproject</string>
+
+    <!-- slider text -->
+
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="start">Start</string>
+    <string name="first_statement">Women Fashion Shopping Online - Shop from a huge range of latest women clothing,
+        shoes, makeup Kits, Watches, footwear and more for women at best price</string>
+    <string name="online_shopping"> Online Shopping</string>
+    <string name="add_to_cart_content">Add to cart button works on product pages. 
+        The customizations in this section  compatible with dynamic checkout buttons</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="payment_successful"> Payment Successful</string>
+    <string name="payment_content">Your payment has been successfully completed.
+        You will receive a confirmation email within a few minutes.</string>
+
+    <!-- sign up text -->
+
+    <string name="welcome">Welcome</string>
+    <string name="signup_to_start_your_new_app"> SignUp to start your new app</string>
+    <string name="user_name">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account"> Already have an account? <b> Login </b> </string>
+
+    <!-- sign in text -->
+
+    <string name="hello_there_welcome_back">Hello there,Welcome Back</string>
+    <string name="sign_in_to_continue">Sign In to continue</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="new_user_sign_up">New User? <b> SIGN UP</b></string>
+    <string name="sign_in">Sign In</string>
+
+    <!-- layout text -->
+
+    <string name="wishlist">Wishlist</string>
+    <string name="cart">Cart</string>
+
+</resources>

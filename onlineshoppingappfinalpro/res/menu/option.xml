@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/wish"
+        android:title="wishmenu"
+        android:icon="@drawable/baseline_favorite_border_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/cart"
+        android:title="cartmenu"
+        android:icon="@drawable/baseline_add_shopping_cart_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/i1"
+        android:title="Logout"/>
+
+</menu>
